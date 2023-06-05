@@ -24,7 +24,7 @@
         <a 
           target="_blank"   
           rel="noopener" 
-          href="https://intra.kth.se/en/it/natverk/sakerhet/microsoft-365/sakra-ditt-kth-microsoft-365-konto-med-multifaktorautentisering-mfa-1.1154451" 
+          href="https://wiki.cloud.cbh.kth.se/index.php/KTH_SSO" 
           style="text-decoration: underline; color: #0e4fa7">
           Follow these steps
         </a>
