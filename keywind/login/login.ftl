@@ -14,12 +14,24 @@
   section
 >
   <#if section="header">
-    ${msg("loginAccountTitle")}
+    Log in to your account
   <#elseif section="form">
 
     <#if realm.password && social.providers??>
       <@provider.kw />
-      <div class="pt-4 separate text-secondary-600 text-sm">${msg("identity-provider-login-label")}</div>
+      <div class="pt-4 text-secondary-600 text-sm" style="text-align: center">
+        First time logging in? 
+        <a 
+          target="_blank"   
+          rel="noopener" 
+          href="https://intra.kth.se/en/it/natverk/sakerhet/microsoft-365/sakra-ditt-kth-microsoft-365-konto-med-multifaktorautentisering-mfa-1.1154451" 
+          style="text-decoration: underline; color: #0e4fa7">
+          Follow these steps
+        </a>
+      </div>
+      <div class="pt-4 separate text-secondary-600 text-sm">
+        Or log in with a local account
+      </div>
     </#if>
     <#if realm.password>
       <form
